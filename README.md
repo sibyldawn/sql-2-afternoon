@@ -30,7 +30,9 @@ SELECT a.Name, b.Name FROM SomeTable a JOIN AnotherTable b ON a.someid = b.somei
 <br />
 
 1. Get all invoices where the `UnitPrice` on the `InvoiceLine` is greater than $0.99.
+        
 2. Get the `InvoiceDate`, customer `FirstName` and `LastName`, and `Total` from all invoices.
+
 3. Get the customer `FirstName` and `LastName` and the support rep's `FirstName` and `LastName` from all customers. 
     * Support reps are on the Employee table.
 4. Get the album `Title` and the artist `Name` from all albums.
